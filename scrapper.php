@@ -76,23 +76,8 @@ ob_start();
 
 <body>
     <h1>Classificados do CorreioWeb - <?=date('d/m/y')?></h1>
-    <h2>Gentilmente organizado por <a href="#" id="about-me">Yarkhan</a></h2>
+    <h2>Gentilmente organizado por <a href="https://github.com/Yarkhan/" id="about-me">Yarkhan</a></h2>
     <div id="about">
-        <div class="me">
-            <img src="me.jpg" alt="me =D">
-            <h2>Encontre-me</h2>
-            <a href="http://facebook.com/ronyarkhan">Facebook</a>
-            <a href="http://plus.google.com/100713653224896243823">Google+</a>
-        </div>
-        <p>H&aacute; alguns meses havia feito um script para listar as vagas de emprego no 
-            CorreioWeb de forma naveg&aacute;vel. Resolvi liberar o acesso &agrave; voc&ecirc;s, 
-            embora eu tenha quase certeza que eles v&atilde;o vir atr&aacute;s de mim para reclamar,
-             haha!</p>
-
-        <p>Espero que seja &uacute;til para voc&ecirc;s, assim como &eacute; para mim. Lembrando que 
-            ainda estou desempregado, se voc&ecirc; souber de algu&eacute;m que precisa de um 
-            desenvolvedor web, j&aacute; sabem ;)</p>
-
         <p><em>Dicas:</em></p>
         <ul>
             <li>Procure pelo nome da vaga em <em>Pesquisar</em>. Super pr&aacute;tico.</li>
