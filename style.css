@@ -1,0 +1,56 @@
+body{
+	text-align:center;
+	margin:auto;
+	width:960px;
+	font: 15px/22.5px "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+
+}
+table{
+	text-align:left;
+	padding:0 20px;
+}
+div{
+	text-align:left;
+	padding:10px 20px;
+	-moz-box-shadow: 1px 2px 5px #000000;
+	-webkit-box-shadow: 1px 2px 5px #000000;
+	box-shadow: 1px 2px 5px #000000;			
+}
+th, table td {
+	padding: 8px;
+	line-height: 20px;
+	text-align: left;
+	vertical-align: top;
+	border-bottom: 1px solid #dddddd;
+}
+h1{
+	font-size: 35px;
+	color:#414141;
+}
+h2{
+	font-size:12px;
+}
+input{
+	width:256px;
+}
+p a{
+	padding:0 10px;
+}
+a{
+	color: #0088cc;
+}
+#about{
+	display:none;
+}
+.me{
+	float:right;
+}
+.me img{
+	float:left;
+}
+.me a{
+	display:block;
+}
+tbody tr:hover{
+	background:rgb(245, 245, 245)
+}
