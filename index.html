@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Classificados Correio Braziliense</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="assets/css/theme.less" rel="stylesheet/less" media="screen">
+    <meta charset="utf-8">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-default" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Classificados</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#" id="generate">Gerar</a></li>
+        </ul>
+        <form class="navbar-form navbar-left" role="search" id="search">
+          <div class="form-group">
+            <select name="" id="older_entries" class="form-control">
+              <option value="null">Escolher Dia</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <input class="form-control"type="text" id="find">
+          </div>
+          <button type="submit" class="btn btn-default">Pesquisar</button>
+        </form>
+      </div><!-- /.navbar-collapse -->
+    </nav>
+    <div class="container">
+      <div id="status"></div>
+      <table id="entries" class="table-stripped">
+        <thead>
+          <th>Nível</th>
+          <th>Título</th>
+          <th>Descrição</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>sdf</td>
+            <td>sdfdsf</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/tablesearch.jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/less.min.js"></script>
+    <script src="assets/js/functions.js"></script>
+  </body>
+</html>
