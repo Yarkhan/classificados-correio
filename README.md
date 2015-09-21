@@ -1,3 +1,8 @@
+DEAD
+=====
+Depois de anos, os correios atualizaram o site. Embora apenas uma dúzia de pessoas tenha se utilizado desses códigos, eles foram bem utilizados, e este projeto cumpriu seu papel.
+Manterei ele aqui para recordar... e para quem estiver procurando um exemplo de como usar curl em centenas de requests.
+
 classificados-correio
 =====================
 
